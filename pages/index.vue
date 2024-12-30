@@ -15,7 +15,7 @@ const currentSlide = ref(0);
 onMounted(() => {
     const interval = setInterval(() => {
         nextSlide();
-    }, 3000); // เลื่อนอัตโนมัติทุก 3 วินาที
+    }, 10000); // เลื่อนอัตโนมัติทุก 3 วินาที
 
     return () => clearInterval(interval); // หยุดการเลื่อนเมื่อออกจากหน้า
 });
