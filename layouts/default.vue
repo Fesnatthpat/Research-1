@@ -5,7 +5,7 @@
 <template>
     <div>
         <AppNavbar-Top />
-        <div class="">
+        <div class="md:min-h-[789px]">
             <slot />
         </div>
         <AppBar-Menu />
