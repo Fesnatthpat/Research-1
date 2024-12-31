@@ -12,7 +12,7 @@ import { Search } from 'lucide-vue-next'
             </div>
         </div>
         <!-- Boxes -->
-        <div class="flex flex-col gap-y-2">
+        <div class="flex flex-col gap-y-2 grid md:grid-cols-2 md:gap-2">
             <div class="bg-gray-300 rounded-md w-full h-[100px] text-center text-black font-semibold">
                 Box
             </div>
@@ -25,9 +25,9 @@ import { Search } from 'lucide-vue-next'
             <div class="bg-gray-300 rounded-md w-full h-[100px] text-center text-black font-semibold">
                 Box
             </div>
-            <div class="bg-gray-300 rounded-md w-full h-[100px] text-center text-black font-semibold">
+            <!-- <div class="bg-gray-300 rounded-md w-full h-[100px] text-center text-black font-semibold">
                 Box
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
